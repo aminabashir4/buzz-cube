@@ -54,14 +54,14 @@ export default function WeWork() {
               {/* Step Number + Line */}
               <div className="relative flex flex-col items-center mr-6">
                 {/* Step Number Circle */}
-                <div className="w-16 h-16 rounded-full bg-gblack text-white flex items-center justify-center text-xl font-bold shadow-lg z-10">
+                <div className="w-16 h-16 rounded-full bg-black text-white flex items-center justify-center text-xl font-bold shadow-lg z-10">
                   {step.id}
                 </div>
 
                 {/* Connecting Line */}
                 {index !== steps.length - 1 && (
                   <div
-                    className="absolute top-16 left-1/2 -translate-x-1/2 w-[2px] bg-[#00FF8C]"
+                    className="absolute top-16 left-1/2 -translate-x-1/2 w-0.5 bg-[#00FF8C]"
                     style={{
                       height: "calc(100% + 3.5rem)",
                     }}
