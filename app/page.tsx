@@ -3,6 +3,7 @@ import Hero from './components/hero'
 import ProcessSection from './components/process'
 import WeWork from './components/we-work'
 import Reviews from './components/reviews'
+import FAQ from './components/faq'
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
       <ProcessSection/>
       <WeWork/>
       <Reviews/>
+      <FAQ/>
     </div>
   )
 }
