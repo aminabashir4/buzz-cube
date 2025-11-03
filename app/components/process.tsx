@@ -32,8 +32,8 @@ export default function ProcessSection() {
   return (
     <section className=" pb-32 px-6">
       <div className="max-w-7xl mx-auto text-center mb-12">
-        <h2 className="text-3xl md:text-5xl font-bold mb-4 text-black">How It Works</h2>
-        <p className="text-black text-lg">
+        <h2 className="text-3xl md:text-6xl font-bold mb-4 leading-tight font-heading">How It Works</h2>
+        <p className="text-base md:text-xl text-black mb-4">
           Simple yet highly effective — our streamlined 4-step process keeps
           your marketing moving fast.
         </p>

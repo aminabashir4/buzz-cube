@@ -37,10 +37,10 @@ export default function WeWork() {
     <section className="pb-20 px-6 md:px-20 bg-white">
       {/* Header */}
       <div className="text-center max-w-3xl mx-auto mb-16">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-gblack mb-4">
+        <h2 className="text-3xl md:text-6xl font-bold mb-4 leading-tight font-heading">
           HOW WE WORK TOGETHER
         </h2>
-        <p className="text-gray-600 text-lg">
+        <p className="text-base md:text-xl text-black mb-4">
           A simple, proven system that takes you from setup to scale — fast,
           efficient, and fully automated.
         </p>

@@ -16,7 +16,7 @@ const heroContent = [
 
 export default function Hero() {
   return (
-    <section className="relative w-full h-screen flex items-center justify-center text-center text-white overflow-hidden mb-32">
+    <section className="relative w-full h-screen flex items-center justify-center text-center text-black overflow-hidden mb-32">
       <video
         autoPlay
         loop
@@ -28,7 +28,6 @@ export default function Hero() {
         Your browser does not support the video tag.
       </video>
 
-      <div className="absolute inset-0 bg-black/60"></div>
 
       {heroContent.map((item) => (
         <div key={item.id} className="relative z-10 px-6 max-w-4xl">
@@ -42,10 +41,10 @@ export default function Hero() {
               {item.title} <br />
             </h1>
 
-            <p className="text-base md:text-xl text-gray-200 mb-4">
+            <p className="text-base md:text-xl text-black mb-4">
               {item.description1}
             </p>
-            <p className="text-base md:text-xl text-gray-200 font-medium">
+            <p className="text-base md:text-xl text-black font-medium">
               {item.description2}
             </p>
           </div>
