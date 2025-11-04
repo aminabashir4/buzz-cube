@@ -7,6 +7,7 @@ import FAQ from './components/faq'
 import PricingSection from './components/pricing'
 import Platforms from './components/platforms'
 import RecentWorks from './components/recent-work'
+import Footer from './components/footer'
 
 const page = () => {
   return (
@@ -19,6 +20,7 @@ const page = () => {
       <PricingSection/>
       <Platforms/>
       <RecentWorks/>
+      <Footer/>
     </div>
   )
 }

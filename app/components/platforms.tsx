@@ -46,20 +46,26 @@ export default function Platforms() {
   }, []);
 
   return (
-    <div className="bg-white text-center overflow-x-hidden relative py-10">
-      {/* Instagram Button */}
-      
+    <section className="bg-white text-center overflow-x-hidden relative py-16">
+      {/* Section Heading */}
+      <div className="max-w-4xl mx-auto mb-12 px-6">
+        <h2 className="text-3xl md:text-6xl font-bold mb-4 leading-tight font-heading">
+          Platforms We Work With
+        </h2>
+        <p className="text-base md:text-xl text-black mb-4 max-w-2xl mx-auto">
+          We collaborate with some of the world’s leading brands and platforms
+          to deliver high-quality digital experiences, innovative designs, and
+          powerful results.
+        </p>
+      </div>
 
       {/* Sliders */}
-      <div className="mx-auto w-full max-w-[1350px] px-4 space-y-6">
+      <div className="mx-auto w-full max-w-[1350px] px-4 space-y-8">
         {/* Top Slider */}
         <div className="slider">
           <div className="track track-left flex w-max">
             {[...images, ...images].map((item, i) => (
-              <div
-                key={`top-${i}`}
-                className="flex flex-col items-center mx-4"
-              >
+              <div key={`top-${i}`} className="flex flex-col items-center mx-4">
                 <Image
                   src={item.src}
                   alt={item.brand}
@@ -79,10 +85,7 @@ export default function Platforms() {
         <div className="slider">
           <div className="track track-right flex w-max">
             {[...images, ...images].map((item, i) => (
-              <div
-                key={`bottom-${i}`}
-                className="flex flex-col items-center mx-4"
-              >
+              <div key={`bottom-${i}`} className="flex flex-col items-center mx-4">
                 <Image
                   src={item.src}
                   alt={item.brand}
@@ -140,6 +143,6 @@ export default function Platforms() {
           }
         }
       `}</style>
-    </div>
+    </section>
   );
 }
