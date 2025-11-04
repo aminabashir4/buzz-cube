@@ -46,7 +46,7 @@ export default function Platforms() {
   }, []);
 
   return (
-    <section className="bg-white text-center overflow-x-hidden relative py-16">
+    <section className="bg-white text-center overflow-x-hidden relative mb-32">
       {/* Section Heading */}
       <div className="max-w-4xl mx-auto mb-12 px-6">
         <h2 className="text-3xl md:text-6xl font-bold mb-4 leading-tight font-heading">

@@ -44,7 +44,7 @@ export default function FAQ() {
   const rightFaqs = faqs.slice(Math.ceil(faqs.length / 2));
 
   return (
-    <section className="py-16 bg-white">
+    <section className="mb-32 bg-white">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-3xl md:text-6xl font-bold mb-14 leading-tight font-heading text-center">
           Frequently Asked Questions

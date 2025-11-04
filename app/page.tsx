@@ -8,6 +8,8 @@ import PricingSection from './components/pricing'
 import Platforms from './components/platforms'
 import RecentWorks from './components/recent-work'
 import Footer from './components/footer'
+import StickySections from './components/sticky-section'
+import Content from './components/content'
 
 const page = () => {
   return (
@@ -20,6 +22,8 @@ const page = () => {
       <PricingSection/>
       <Platforms/>
       <RecentWorks/>
+      <Content/>
+      <StickySections/>
       <Footer/>
     </div>
   )

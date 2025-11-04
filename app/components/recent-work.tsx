@@ -35,7 +35,7 @@ export default function MyWorks() {
   ];
 
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-[#e8e8e8] to-[#cce8f5] py-16">
+    <section className="min-h-screen flex flex-col items-center justify-center bg-black/5 py-16 mb-20">
       <div className="text-center mb-10">
         <h2 className="text-3xl md:text-6xl font-bold mb-4 leading-tight font-heading">
           Our Works
@@ -55,7 +55,7 @@ export default function MyWorks() {
           {works.map((work, index) => (
             <div
               key={index}
-              className="relative w-72 h-[420px] rounded-3xl overflow-hidden group flex-shrink-0 cursor-pointer bg-gray-100"
+              className="relative w-72 h-[420px] rounded-3xl overflow-hidden group shrink-0 cursor-pointer bg-gray-100"
             >
               <Image
                 src={work.image}

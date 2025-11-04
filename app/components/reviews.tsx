@@ -48,7 +48,7 @@ export default function Reviews() {
   ];
 
   return (
-    <section className="bg- text-black py-20 px-6 md:px-20 relative">
+    <section className="bg- text-black pb-32 px-6 md:px-20 relative">
       <div className="flex items-center justify-between mb-10">
         <h2 className="text-3xl md:text-6xl font-bold mb-4 leading-tight font-heading">Reviews</h2>
 

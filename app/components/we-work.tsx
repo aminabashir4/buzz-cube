@@ -34,7 +34,7 @@ export default function WeWork() {
   ];
 
   return (
-    <section className="pb-20 px-6 md:px-20 bg-white">
+    <section className="pb-32 px-6 md:px-20 bg-white">
       {/* Header */}
       <div className="text-center max-w-3xl mx-auto mb-16">
         <h2 className="text-3xl md:text-6xl font-bold mb-4 leading-tight font-heading">

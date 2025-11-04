@@ -42,7 +42,7 @@ export default function PricingSection() {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-[#f6f6f6] px-4 py-16">
+    <div className="min-h-screen flex flex-col justify-center items-center bg-[#f6f6f6] px-4 py-16 mb-32">
       {/* Section Heading */}
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-6xl font-bold mb-4 leading-tight font-heading">
